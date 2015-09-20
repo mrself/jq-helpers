@@ -1,0 +1,26 @@
+{
+  "name": "jq-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrself/jq-helpers.git"
+  },
+  "author": "mrself",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrself/jq-helpers/issues"
+  },
+  "homepage": "https://github.com/mrself/jq-helpers#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.5"
+  }
+}
