@@ -98,7 +98,7 @@
 			};
 		},
 		idExists: function(idName) {
-			return $('#' + idName).length;
+			return document.getElementById('idName') !== null;
 		},
 
 		parseQueryParams: function(query) {
