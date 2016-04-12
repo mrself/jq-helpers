@@ -103,6 +103,7 @@
 
 		parseQueryParams: function(query) {
 			query = query || document.location.search;
+			query = query.replace(/^(\?)/, '');
 			var re = /([^&=]+)=?([^&]*)/g;
 			var decodeRE = /\+/g;  // Regex for replacing addition symbol with a space
 			var decode = function (str) {return decodeURIComponent( str.replace(decodeRE, " ") );};
